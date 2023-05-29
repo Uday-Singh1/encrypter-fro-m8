@@ -1,0 +1,81 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background: linear-gradient(to left, #FEFF86, #19A7CE);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 4rem;
+  gap: 2rem;
+}
+
+.view {
+  width: 60rem;
+  aspect-ratio: 1/1;
+  background: #fff;
+  border-radius: 3rem;
+  padding: 4rem;
+}
+.view__header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view__heading {
+  font-size: 200%;
+  font-weight: 400;
+}
+.view__body {
+  width: 100%;
+  height: 60%;
+  padding-bottom: 2rem;
+}
+.view__input {
+  font-size: 100%;
+  width: 100%;
+  height: 100%;
+  resize: none;
+  font-family: inherit;
+}
+.view__footer {
+  width: 100%;
+  height: 20%;
+}
+.view__button {
+  padding: 2rem 4rem;
+  font-size: 100%;
+  width: 20rem;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  transition: 0.3s all;
+  border: 0.2rem solid black;
+}
+.view__button:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
