@@ -1,0 +1,1 @@
+const app = new App();  //hier kan je gemakelijk de app uitvoeren meerdere malen zolang de name niet precies hetzelfde is als de andere keren

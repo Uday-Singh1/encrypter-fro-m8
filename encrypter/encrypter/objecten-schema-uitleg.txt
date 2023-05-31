@@ -1,0 +1,5 @@
+Korte uitleg voomezelf over de objectenschema van de encrypter-decrypter
+
+De encrypter haalt via de main, de mmain geeft het door aan de app, de app encrypt het,
+de app geeft het via een functie aan de main geeft het via de main body functie door aan de encrypter, 
+de encrypter geeft het door aan de body, en de body veranderd zichzelf.
