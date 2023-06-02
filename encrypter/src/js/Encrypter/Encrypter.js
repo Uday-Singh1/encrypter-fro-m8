@@ -4,9 +4,9 @@ class Encrypter{    //class Encrypter (classen is een blauwdruk)
       let encryptedString = [];
         for (let i = 0; i < stringToEncrypt.length; i++){
             switch (stringToEncrypt[i]) {
-                case "A":
+                case "A":   // De letter A laat D zien    dus je zegt dat zodra A wordt ingetikt dus case, dan Pushed het de encrypted string D uit
                     encryptedString.push("D");
-                    break;
+                    break; 
                 case "B":
                     encryptedString.push("E");
                     break;

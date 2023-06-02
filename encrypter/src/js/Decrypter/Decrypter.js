@@ -1,8 +1,9 @@
 class Decrypter{
     decrypt(stringToDecrypt) {
         stringToDecrypt = stringToDecrypt.toUpperCase();    //dit zorgt er voor dat de decrypter kan werken met hoofdletter gevoeligheid
-        let  decryptedString = [];
+        let  decryptedString = [];  //de string is opzichzelf normaal gewoon leeg i
         for (let i = 0; i < stringToDecrypt.length; i++){
+              //switch die de stapgroottes bepaalt
             switch (stringToDecrypt[i]) {
                     case "D":
                     decryptedString.push("A");
@@ -86,7 +87,7 @@ class Decrypter{
                     decryptedString.push(stringToDecrypt[i]);
             }
         }
-       decryptedString = decryptedString.join("");
-        return decryptedString;
+       decryptedString = decryptedString.join("");   //array wordt naar terug gestuurd naar de string door join
+        return decryptedString; //hier wordt het gereturned
     }
 }

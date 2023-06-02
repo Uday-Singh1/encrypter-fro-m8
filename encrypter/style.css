@@ -27,10 +27,17 @@ body {
   gap: 2rem;
 }
 
+.view:hover {
+  border: 1rem solid #19A7CE;
+  transition: 0.5s;
+  transform: scale(1.02);
+}
+
 .view {
   width: 60rem;
   aspect-ratio: 1/1;
   background: #fff;
+  border: 1rem solid black;
   border-radius: 3rem;
   padding: 4rem;
 }
